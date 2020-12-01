@@ -1,0 +1,83 @@
+body 
+{
+	background: black;
+}
+a{
+	color : white;
+	text-decoration:none;
+	font-size:20px;
+	padding-left:10px;
+	padding-right:10px;
+}
+#navbar
+{
+	text-align:center;
+	background-color:black;
+	padding:20px;
+	color:white;
+	
+}
+
+p{
+	color:#00e3d8;
+}
+#intro
+{
+	font-size:45px;
+	margin-left: 120px;
+	color:white;
+}
+#content
+{
+	width:70%;
+	margin-left:120px;
+}
+#projSection
+{
+	margin-top : 50px;
+	text-align:center;
+	padding-bottom:30px;
+	color:white;
+}
+.column
+{
+	float: left;
+		width: 50%;
+		height:400px;
+		
+}
+.row:after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+#projectSnap
+{
+	padding:10%;
+	height:60%;
+	width:65%;
+	min-width:250px;
+	min-height:200px;
+	display:inline-block;
+}
+.projDesc
+{
+	text-align:center;
+	padding:10%;
+}
+.langImg{
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+    height : 55px;
+    width: 55px;
+    border:1px solid #CCC;
+}
+#hrtop
+{
+	width:80%;
+}
+#hrbtm
+{
+	width:65%;
+}
