@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+
 import NavComp from './header'
 import Head from 'next/head';
 

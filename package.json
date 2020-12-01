@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "next" ,
-    "build" : "next build",
-    "now-build" : "next build",
-    "start" : "next start"
+    "dev": "next",
+    "build": "next build",
+    "now-build": "next build",
+    "start": "next start"
   },
   "author": "",
   "license": "ISC",
