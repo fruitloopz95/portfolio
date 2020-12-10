@@ -8,13 +8,13 @@ export default () =>
 		
 		<Head>
 	      <title>My Projects</title>
-	      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1		-1"></script>
+	     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPML0HENW2"></script>
 			<script>
 			  window.dataLayer = window.dataLayer || [];
-			  function gtag(){dataLayer.push(arguments)}
+			  function gtag(){dataLayer.push(arguments);}
 			  gtag('js', new Date());
 
-			  gtag('config', 'UA-1		-1');
+			  gtag('config', 'G-LPML0HENW2');
 			</script>
 	    </Head>
 
