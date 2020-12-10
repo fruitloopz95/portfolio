@@ -11,8 +11,8 @@ export default () =>
 	      <title>About</title>
 	      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPML0HENW2"></script>
 			<script>
-			  window.dataLayer = window.dataLayer || [];
-			  function gtag(){dataLayer.push(arguments);}
+			  var dataLayer = window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments)}
 			  gtag('js', new Date());
 
 			  gtag('config', 'G-LPML0HENW2');
