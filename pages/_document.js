@@ -6,7 +6,7 @@ import { GA_TRACKING_ID } from '../lib/gtag'
 
 export default class CustomDocument extends Document {
   static async getInitialProps(ctx) {
-    const sheet = new ServerStyleSheet()
+    //const sheet = new ServerStyleSheet()
     const originalRenderPage = ctx.renderPage
 
     const initialProps = await Document.getInitialProps(ctx)
