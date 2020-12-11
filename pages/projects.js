@@ -8,14 +8,7 @@ export default () =>
 		
 		<Head>
 	      <title>My Projects</title>
-	     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPML0HENW2"></script>
-			<script>
-			  var dataLayer = window.dataLayer = window.dataLayer || [];
-			  function gtag(){dataLayer.push(arguments)}
-			  gtag('js', new Date());
-
-			  gtag('config', 'G-LPML0HENW2');
-			</script>
+	    
 	    </Head>
 
 		<style jsx> 
@@ -188,7 +181,7 @@ export default () =>
 			<div className = "row">
 
 				<div className="column">
-					<img id = "projectSnap" src= "./static/onlineStore.jpg" alt= "my image" />
+					<img id = "projectSnap" src= "./static/onlineStore.JPG" alt= "my image" />
 				</div>
   				<div className="column">
   					<div className = "projDesc">
@@ -200,10 +193,10 @@ export default () =>
   						</p>
 
   						<div className = "langContainer">
-							<img id = "im" src="./static/html.JPG" alt="java" className="langImg rounded-circle" />
-							<img id = "im" src="./static/css.JPG" alt="java" className="langImg rounded-circle" />
-							<img id = "im" src="./static/javascript.JPG" alt="java" className="langImg rounded-circle" />
-							<img id = "im" src="./static/jq.PNG" alt="java" className="langImg rounded-circle" />
+							<img id = "im" src="./static/html.JPG" alt="html" className="langImg rounded-circle" />
+							<img id = "im" src="./static/css.JPG" alt="css" className="langImg rounded-circle" />
+							<img id = "im" src="./static/javascript.JPG" alt="javascript" className="langImg rounded-circle" />
+							<img id = "im" src="./static/jq.png" alt="jq" className="langImg rounded-circle" />
 						</div>
 
   					</div>
